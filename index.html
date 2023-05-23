@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BANORANT: JC Personal Profile</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+</head>
+<body>
+<section class="header">
+	<nav>
+		<a href="index.html"><img src="images/logo.png"></a>
+		<div class="nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="">HOME</a></li>
+				<li><a href="pages/agents.html">AGENTS</a></li>
+				<li><a href="pages/arsenal.html">ARSENAL</a></li>
+				<li><a href="pages/maps.html">MAPS</a></li>
+				<li><a href="pages/about.html">ABOUT</a></li>
+			</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+
+	<div class="text-box">
+		<h1>Welcome to BANORANT</h1>
+		<p>The website created by the noob player a.k.a ME(JC). This website contains my favorite agents, <br> preferred weapons, and maps.</p>
+		<a href="pages/about.html" class="hero-btn">Learn More</a>
+	</div>
+</section>
+
+<!------agents------>
+
+<section class="agents">
+	<div class="agent">
+		<h1>MY AGENTS</h1>
+		<h3>CREATIVITY IS MY GREATEST WEAPON.</h3>
+		<p>More than guns and bullets, I choose an Agent armed with adaptive, swift, and lethal abilities that create opportunities <br> to let my gunplay shine. No two Agents play alike, just as no two highlight reels will look the same.</p>
+		<a href="pages/agents.html" class="agent-btn">View Agents</a>
+	</div>
+	
+	
+</section>
+
+<section class="arsenals">
+	<div class="arsenal">
+		<h1>MY ARSENAL</h1>
+		<h3>VARIETY OF WEAPONS TO CHOOSE.</h3>
+		<p>Each weapons are made to suit anyone's playstyle. Whether it be sidearms, SMGs, Rifles, Snipers, Heavies, or even melee. <br> For me, I prefer rapidfire and long-range weapons but I also use melee and pistols when botfrag.</p>
+		<a href="pages/arsenal.html" class="arsenal-btn">View Arsenal</a>
+	</div>
+</section>
+
+<section class="maps">
+	<div class="map">
+		<h1>FAVORITE MAPS</h1>
+		<h3>FIGHT AROUND THE WORLD.</h3>
+		<p>Each map is a playground to showcase my creative thinking. Purpose-built for team strategies, spectacular plays, and clutch moments. <br> I can make the play others will imitate for years to come(hopefully).</p>
+		<a href="pages/maps.html" class="map-btn">View Maps</a>
+	</div>
+</section>
+
+<section class="footer">
+	<h4>About the Developer</h4>
+	<p>The website created by the noob player a.k.a ME(JC). This website contains my favorite agents, <br> preferred weapons, and maps.</p>
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-linkedin"></i>
+	</div>
+</section>
+
+<!------JavaScript for Toggle Menu------>
+<script>
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+</script>
+
+</body>
+</html>

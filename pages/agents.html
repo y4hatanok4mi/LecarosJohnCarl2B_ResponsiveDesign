@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BANORANT: JC Personal Profile</title>
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+</head>
+<body>
+<section class="agent-header">
+	<nav>
+		<a href="agents.html"><img src="../images/logo.png"></a>
+		<div class="nav-links-agent" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="../index.html">HOME</a></li>
+				<li><a href="">AGENTS</a></li>
+				<li><a href="arsenal.html">ARSENAL</a></li>
+				<li><a href="maps.html">MAPS</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+			</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+
+<div class="agent-box">
+	<h1>MY AGENTS</h1>
+	<h3>CREATIVITY IS MY GREATEST WEAPON.</h3>
+	<p>More than guns and bullets, I choose an Agent armed with adaptive, swift, and lethal abilities that create opportunities to let my gunplay shine. <br> No two Agents play alike, just as no two highlight reels will look the same.</p>
+</div>
+</section>
+
+<!------agents------>
+
+<section class="agents-page">
+	<div class="row-1">
+		<div class="fav-agent">
+			<img src="../images/agents/sova.png">
+			<div class="agent-name">
+				<h3>SOVA</h3>
+			</div>
+		</div>
+		<div class="fav-agent">
+			<img src="../images/agents/raze.jpg">
+			<div class="agent-name">
+				<h3>RAZE</h3>
+			</div>
+		</div>
+		<div class="fav-agent">
+			<img src="../images/agents/viper.jpg">
+			<div class="agent-name">
+				<h3>VIPER</h3>
+			</div>
+		</div>
+	</div>
+	<div class="row-2">
+		<div class="fav-agent">
+			<img src="../images/agents/phoenix.jpg">
+			<div class="agent-name">
+				<h3>PHOENIX</h3>
+			</div>
+		</div>
+		<div class="fav-agent">
+			<img src="../images/agents/jett.jpg">
+			<div class="agent-name">
+				<h3>JETT</h3>
+			</div>
+		</div>
+		<div class="fav-agent">
+			<img src="../images/agents/brimstone.jpg">
+			<div class="agent-name">
+				<h3>BRIMSTONE</h3>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="footer">
+	<h4>About the Developer</h4>
+	<p>The website created by the noob player a.k.a ME(JC). This website contains my favorite agents, <br> preferred weapons, and maps.</p>
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-linkedin"></i>
+	</div>
+</section>
+
+<!------JavaScript for Toggle Menu------>
+<script>
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+</script>
+
+</body>
+</html>

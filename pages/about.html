@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BANORANT: JC Personal Profile</title>
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+</head>
+<body>
+<section class="agent-header">
+	<nav>
+		<a href="about.html"><img src="../images/logo.png"></a>
+		<div class="nav-links-agent" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="../index.html">HOME</a></li>
+				<li><a href="agents.html">AGENTS</a></li>
+				<li><a href="arsenal.html">ARSENAL</a></li>
+				<li><a href="maps.html">MAPS</a></li>
+				<li><a href="">ABOUT</a></li>
+			</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+	<div class="about">
+		<h1>About The Developer</h1>
+		<div class="container-1">
+			<div class="info">
+				<p class="content">My name is John Carl Lecaros from Ino, Mogpog, Marinduque. </p>
+			</div>
+			<div class="info">
+				<p class="content">I'm a 2nd year student at Marinduque State College(MSC) taking Bachelor of Science in Information Technology.</p>
+			</div>
+		</div>
+		<div class="container-2">
+			<div class="info">		
+				<p class="content">I'm 20 years old and was born on July 17,2002.</p>
+			</div>
+			<div class="info">
+				<p class="content">My hobbies are playing video games, watching documentaries, and reading books or manhwas.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="footer">
+	<h4>About the Developer</h4>
+	<p>The website created by the noob player a.k.a ME(JC). This website contains my favorite agents, <br> preferred weapons, and maps.</p>
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-linkedin"></i>
+	</div>
+</section>
+
+<!------JavaScript for Toggle Menu------>
+<script>
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+</script>
+
+</body>
+</html>
